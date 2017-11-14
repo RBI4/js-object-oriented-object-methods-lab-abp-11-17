@@ -1,6 +1,6 @@
 const expect = chai.expect;
 
-describe('boardMember', function() {
+describe('boardMembers', function() {
   let polishedBoardMember;
   before(() => {
     polishedBoardMember = new BoardMember("Mr. Polished", "New York", "law")
@@ -45,4 +45,3 @@ describe('boardMember', function() {
     })
   })
 })
-
